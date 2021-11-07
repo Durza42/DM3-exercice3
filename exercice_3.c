@@ -16,7 +16,7 @@ int main () {
       // somme à payer ce jour-ci
    double cout = 0.01;
       // somme donnée par la banque
-   double ajout = 8100;
+   double ajout = 100000;
 
 
    /* simulation des jours */
@@ -52,7 +52,7 @@ int main () {
          // on devra payer 2 fois plus le prochain jour
       cout *= 2.;
          // la banque nous versera 100€ de plus le prochain jour
-      ajout += 100;
+      ajout += 10000;
    }
 
    return 0;
