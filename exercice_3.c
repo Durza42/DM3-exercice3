@@ -51,7 +51,7 @@ int main () {
 
          // on devra payer 2 fois plus le prochain jour
       cout *= 2.;
-         // la banque nous versera 100€ de plus le prochain jour
+         // la banque nous versera 10000€ de plus le prochain jour
       ajout += 10000;
    }
 
