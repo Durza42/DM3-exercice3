@@ -1,6 +1,6 @@
 compte = 0     # argent sur le compte en banque au départ
 cout = 0.01    # somme à payer ce jour-ci
-ajout = 8100   # somme donnée par la banque
+ajout = 100000   # somme donnée par la banque chaque jour
 
    ## pour les 31 jours du mois
 for i in range(31):
@@ -24,5 +24,5 @@ for i in range(31):
       print ("")
 
    cout *= 2      # on devra payer 2 fois plus le prochain jour
-   ajout += 100   # la banque nous versera 100€ de plus le prochain jour
+   ajout += 10000   # la banque nous versera 10000€ de plus le prochain jour
 
